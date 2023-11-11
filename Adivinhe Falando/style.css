@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+:root {
+    --font-family: 'Montserrat', sans-serif;
+    --bg-color: #0AA1DD;
+    --primary-color: #E8F9FD;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 5em;
+}
+
+
+
+
+
+
+.button{
+    color: white;
+    background-color: black;
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-top:15px;
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box {
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 3em;
+    padding: 10px;
+    margin: 20px;
+}
+.container_tent{
+    margin-top: 4em;
+}
+
+
+
+.container_tent_box{
+    padding:  0.6em 4em;
+    border: 2px solid black;
+    border-radius: 4px;
+   
+}
+
+.container_tent_paragraf{
+    color:white;
+    font-size: 1.4em;
+}
+.container_tent_box_paragraf{
+    font-size: 2em;
+}
+
+
+.record_container{
+
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+.record_container_box{
+    padding: 0.5em ;
+    font-size: 1em;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+
+}
